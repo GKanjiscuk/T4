@@ -1,7 +1,7 @@
-# Sistema de Gerenciamento da Pet Lovers com Interface Gráfica
+# Sistema de Gerenciamento da Pet Lovers com Interface Gráfica e CRUD funcional
 
-Atividade Avaliativa 3 - Pet Lovers 3
-Este projeto é apenas uma simulação no frontend utilizando componentes de função no React, sem integração com backend.
+Atividade Avaliativa 4 - Pet Lovers 4
+Este projeto corresponde à Atividade Avaliativa 4 - Pet Lovers 4. Trata-se da integração entre front-end e back-end com o objetivo de consolidar os conhecimentos sobre a implementação de um sistema CRUD funcional. 
 
 ## Tecnologias utilizadas
 
@@ -9,16 +9,14 @@ Este projeto é apenas uma simulação no frontend utilizando componentes de fun
 - Typescript
 - HTML / CSS
 - Bootstrap
+- Java (Backend pré-montado) -> é necessário ter a JVM instalado na máquina - instalação externa
 
 ## Funcionalidades
 
-- Cadastro:
--   clientes (com nome e CPF)
--   pets (associados a um cliente)
--   produtos (com nome, preço e estoque)
--   serviços (com nome e preço)
-- Leitura de dados
-- Edição e exclusão de dados e/ou itens
+- Cadastro de clientes.
+- Leitura de dados.
+- Edição e exclusão de dados.
+(Existem outras abas de "pets", "produtos" e "serviços" porém não estão funcionais, apenas estáticas, pois o backend pré-montado só fornece dados de clientes)
 
 1. Clone o repositório:
    ```bash
@@ -28,11 +26,15 @@ Este projeto é apenas uma simulação no frontend utilizando componentes de fun
    ```bash
    npm install
 
-3. Inicie o projeto:
+3. Inicie o back-end (em um terminal separado). A aplicação será executada na porta 32831. Certifique-se de que a JVM está instalada:
+   ```bash
+   java -jar ./executavel/pl.jar
+
+4. Inicie o front-end:
    ```bash
    npm start
 
-4. Abra no navegador
+5. Acesse a aplicação no navegador:
   ```bash
   http://localhost:3000
   
