@@ -9,6 +9,7 @@ Este projeto corresponde à Atividade Avaliativa 4 - Pet Lovers 4. Trata-se da i
 - Typescript
 - HTML / CSS
 - Bootstrap
+- NodeJS - versão: v16.20.2
 - Java (Backend pré-montado) -> é necessário ter a JVM instalado na máquina - instalação externa
 
 ## Funcionalidades
